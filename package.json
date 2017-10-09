@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start --single-run",
-    "debug": "karma start"
+    "debug": "karma start",
+    "hospital": "node ./runner.js"
   },
   "repository": {
     "type": "git",
