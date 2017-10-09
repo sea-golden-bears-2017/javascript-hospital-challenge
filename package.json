@@ -1,0 +1,27 @@
+{
+  "name": "javascript-hospital-challenge",
+  "version": "1.0.0",
+  "description": "Practice TDD and classes with hosiptals",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "debug": "karma start karma.debug.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sea-golden-bears-2017/javascript-hospital-challenge.git"
+  },
+  "author": "Anil Kulkarni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sea-golden-bears-2017/javascript-hospital-challenge/issues"
+  },
+  "homepage": "https://github.com/sea-golden-bears-2017/javascript-hospital-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2"
+  }
+}
