@@ -4,8 +4,8 @@
   "description": "Practice TDD and classes with hosiptals",
   "main": "index.js",
   "scripts": {
-    "test": "karma start",
-    "debug": "karma start karma.debug.conf.js"
+    "test": "karma start --single-run",
+    "debug": "karma start"
   },
   "repository": {
     "type": "git",
