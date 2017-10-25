@@ -12,8 +12,19 @@ console.log("Welcome to the Hospital!");
 // I'll get you started by making some physicians. Maybe you should assign them patients?
 
 const doctors = [
-  new Physician('Asclepius'),
-  new Physician('Camilla'),
+  new Physician('Hal'),
+  new Physician('Barry'),
+  new Physician('Hal'),
+  new Physician('Barry'),
+];
+
+const patients = [
+  new Patient('Taylor'),
+  new Patient('Byron'),
+  new Patient('Austin'),
+  new Patient('Chris'),
+  new Patient('Kim'),
+  new Patient('Kylie'),
 ];
 
 console.log("The Doctors on duty are:");

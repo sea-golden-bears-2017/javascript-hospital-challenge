@@ -3,3 +3,9 @@ class Patient {
     this.name = name;
   }
 }
+
+
+
+
+const g = window ? window : global;
+g.Patient = Patient;
